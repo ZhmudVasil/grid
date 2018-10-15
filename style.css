@@ -1,97 +1,102 @@
 .main{
-	min-width:1200px;
-	height: 877px;
-	background-color: gray; 
+	min-width:100%;
+	height: 820px;
 	box-sizing: border-box;
 }
-.row1, .row2, .row2_1, .row2_2{
+.row1, .row2, .row2_1, .row2_2, .row2_1col, 
+.row2_2col, .row3_col12, .row3_col34, 
+.row4_col, .row3, .row4{
 	font-size: 0;
 }
-.row1, .row2, .row3{
-	margin-bottom: 2%;
+.row1, .row2, .row3, .row4{
+	margin: 10px;
 }
 .row1_col{
 	background-color: green;
 	height: 150px;
-	width: 49%;
+	width: calc(50% - 5px);
 	display: inline-block;
 }
 .row1_col:first-child{
-	margin-right: 2%;
+	margin-right: 10px;
 }
 
 .row2_col{
 	background-color: yellow;
 	height: 320px;
-	width: 49%;
+	width: calc(50% - 5px);
 	display: inline-block;
 }
 .row2_col:first-child{
-	margin-right: 2%;
+	margin-right: 10px;
 }
 .row2_1{
 	background-color: red;
-	height: 155px;
+	height: 165px;
 	width: 100%;
-	display: inline-block;
+	
 }
 .row2_1col{
 	background-color: blue;
-	height: 155px;
-	width: 30.66%;
-	margin-right: 4%;
+	height: 100%;
+	width: calc(33.33333% - 6.7px); 
+	margin-right: 10px;
 	display: inline-block;
+
 }
 .row2_1col:last-child{
-	margin:0;
+	margin: 0;
 }
 .row2_2{
 	background-color: red;
-	height: 142px;
+	height: 145px;
 	width: 100%;
-	margin-top: 4%;
+	margin-top: 10px;
 }
 .row2_2col{
 	background-color: blue;
-	height: 142px;
-	width: 48%;
+	height: 100%;
+	width: calc(50% - 5px);
 	display: inline-block;
-	margin-right: 4%;
+	margin-right: 10px;
 }
 .row2_2col:last-child{
+	margin:0;
+}
+.row3_col{
+	background-color: yellow;
+	height: 185px;
+	width: calc(33.3333% - 6.7px);
+	display: inline-block;
+	margin-right: 10px;
+}
+.row3_col:last-child{
 	margin:0;
 }
 .row3_col12{
 	background-color: blue;
 	height: 185px;
-	width: 31%;
+	width: calc(50% - 5px);
 	display: inline-block;
-	margin-right: 2%;
+	margin-right: 10px;
 }
-.row3_col34{
-	background-color: blue;
-	height: 185px;
-	width: 15.5%;
-	display: inline-block;
-	margin-right: 2%;
-}
-.row3_col34:last-child{
+.row3_col12:last-child{
 	margin:0;
 }
 .row4_col{
 	background-color: blue;
 	height: 135px;
 	display: inline-block;
-	margin-right: 2%;	
+	margin-right: 10px;	
 }
 .row4_col:first-child{
-	width: 15.5%;
+	width: calc(16.6667% - 6.7px);
 }
 .row4_col{
-	width: 46.5%;
+	width: calc(50% - 6.7px);
 }
 .row4_col:last-child{
-	width: 33.37%;
+	width: calc(33.3333% - 6.7px);
 	margin:0;
 }
 
