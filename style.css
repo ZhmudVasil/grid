@@ -1,5 +1,6 @@
 .main{
-	min-width:100%;
+	width:100%;
+	min-width: 800px;
 	height: 820px;
 	box-sizing: border-box;
 }
@@ -12,32 +13,31 @@
 	margin: 10px;
 }
 .row1_col{
-	background-color: green;
+	background-color: #69C5B8;
 	height: 150px;
 	width: calc(50% - 5px);
 	display: inline-block;
 }
 .row1_col:first-child{
+	background-color: #B0DFBF;
 	margin-right: 10px;
 }
 
 .row2_col{
-	background-color: yellow;
 	height: 320px;
 	width: calc(50% - 5px);
 	display: inline-block;
 }
 .row2_col:first-child{
+	background-color: #FA698A;
 	margin-right: 10px;
 }
 .row2_1{
-	background-color: red;
 	height: 165px;
 	width: 100%;
-	
 }
 .row2_1col{
-	background-color: blue;
+	background-color: #8B94F1;
 	height: 100%;
 	width: calc(33.33333% - 6.7px); 
 	margin-right: 10px;
@@ -48,13 +48,12 @@
 	margin: 0;
 }
 .row2_2{
-	background-color: red;
 	height: 145px;
 	width: 100%;
 	margin-top: 10px;
 }
 .row2_2col{
-	background-color: blue;
+	background-color: #FBC864;
 	height: 100%;
 	width: calc(50% - 5px);
 	display: inline-block;
@@ -64,17 +63,18 @@
 	margin:0;
 }
 .row3_col{
-	background-color: yellow;
+	background-color: #588CC6;
 	height: 185px;
 	width: calc(33.3333% - 6.7px);
 	display: inline-block;
 	margin-right: 10px;
 }
 .row3_col:last-child{
+	background-color: #fff;
 	margin:0;
 }
 .row3_col12{
-	background-color: blue;
+	background-color: #588CC6;
 	height: 185px;
 	width: calc(50% - 5px);
 	display: inline-block;
@@ -84,7 +84,7 @@
 	margin:0;
 }
 .row4_col{
-	background-color: blue;
+	background-color: #6651AC;
 	height: 135px;
 	display: inline-block;
 	margin-right: 10px;	
